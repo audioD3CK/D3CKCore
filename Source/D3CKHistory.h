@@ -19,6 +19,8 @@ public:
     CriticalSection* getLock()const;
     static D3CKHistory* find( Component* comp);
     static void beginNewTransaction(const String& name, Component* comp);
+    static bool tryPerform(UndoableAction* action,Component* comp);
+
 private:
     CriticalSection privateLock;
 	CriticalSection* sharedLock;

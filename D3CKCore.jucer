@@ -8,82 +8,83 @@
               pluginManufacturer="audioD3CK" pluginDesc="D3CKCore" pluginName="D3CKCore"
               buildAAX="1" buildRTAS="0" buildVST3="1" buildAU="1" buildVST="1">
   <MAINGROUP id="nNYpbv" name="D3CKCore">
-    <GROUP id="{F80DFB2C-4C47-EB6E-818C-2F19D143F3E0}" name="Interface">
-      <FILE id="tJOYy1" name="VirtualDragAndDropTarget.cpp" compile="1" resource="0"
-            file="Source/VirtualDragAndDropTarget.cpp"/>
-      <FILE id="e213pV" name="VirtualDragAndDropTarget.h" compile="0" resource="0"
-            file="Source/VirtualDragAndDropTarget.h"/>
-      <FILE id="QeKlbo" name="PropertySource.cpp" compile="1" resource="0"
-            file="Source/PropertySource.cpp"/>
-      <FILE id="ZAlMNd" name="PropertySource.h" compile="0" resource="0"
-            file="Source/PropertySource.h"/>
-    </GROUP>
-    <GROUP id="{6AEF205A-9C89-8A7E-AB2F-DFD7F2D2C71A}" name="Tools">
-      <GROUP id="{CAE6D14E-DCB1-A4A7-44A1-4ED9536C7F6D}" name="UI">
-        <FILE id="Uj2i3Z" name="BoundDrivenComponent.cpp" compile="1" resource="0"
-              file="Source/BoundDrivenComponent.cpp"/>
-        <FILE id="UbLeXd" name="BoundDrivenComponent.h" compile="0" resource="0"
-              file="Source/BoundDrivenComponent.h"/>
-        <FILE id="AG21Hz" name="NamableObjectLabel.cpp" compile="1" resource="0"
-              file="Source/NamableObjectLabel.cpp"/>
-        <FILE id="IY12hO" name="NamableObjectLabel.h" compile="0" resource="0"
-              file="Source/NamableObjectLabel.h"/>
+    <GROUP id="{6DFB2C4F-083C-0808-40BB-32C2A74D3C18}" name="Source">
+      <GROUP id="{F80DFB2C-4C47-EB6E-818C-2F19D143F3E0}" name="Interface">
+        <FILE id="tJOYy1" name="VirtualDragAndDropTarget.cpp" compile="1" resource="0"
+              file="Source/VirtualDragAndDropTarget.cpp"/>
+        <FILE id="e213pV" name="VirtualDragAndDropTarget.h" compile="0" resource="0"
+              file="Source/VirtualDragAndDropTarget.h"/>
+        <FILE id="QeKlbo" name="PropertySource.cpp" compile="1" resource="0"
+              file="Source/PropertySource.cpp"/>
+        <FILE id="ZAlMNd" name="PropertySource.h" compile="0" resource="0"
+              file="Source/PropertySource.h"/>
       </GROUP>
-      <FILE id="Bh308I" name="NamableObject.cpp" compile="1" resource="0"
-            file="Source/NamableObject.cpp"/>
-      <FILE id="h7i6pJ" name="NamableObject.h" compile="0" resource="0" file="Source/NamableObject.h"/>
-    </GROUP>
-    <FILE id="LyfyDg" name="BoundsDriver.cpp" compile="1" resource="0"
-          file="Source/BoundsDriver.cpp"/>
-    <FILE id="WeHWI5" name="BoundsDriver.h" compile="0" resource="0" file="Source/BoundsDriver.h"/>
-    <GROUP id="{9F27C078-4F0D-9EF9-C25C-7874E4B25F15}" name="UI">
-      <FILE id="JZoTvE" name="PlacementRect.cpp" compile="1" resource="0"
-            file="Source/PlacementRect.cpp"/>
-      <FILE id="CCAGT6" name="PlacementRect.h" compile="0" resource="0" file="Source/PlacementRect.h"/>
-      <FILE id="bf5DJ7" name="ShottyLook.cpp" compile="1" resource="0" file="Source/ShottyLook.cpp"/>
-      <FILE id="RaftlQ" name="ShottyLook.h" compile="0" resource="0" file="Source/ShottyLook.h"/>
-    </GROUP>
-    <GROUP id="{12DA125D-C98F-D1EF-BEB7-D732A05B1E16}" name="List">
-      <FILE id="ux9u7r" name="MoveListItem.cpp" compile="1" resource="0"
-            file="Source/MoveListItem.cpp"/>
-      <FILE id="pfViKr" name="MoveListItem.h" compile="0" resource="0" file="Source/MoveListItem.h"/>
-      <FILE id="zMVvkI" name="ListItem.cpp" compile="1" resource="0" file="Source/ListItem.cpp"/>
-      <FILE id="rALHKi" name="ListItem.h" compile="0" resource="0" file="Source/ListItem.h"/>
-      <FILE id="y7ejvi" name="ListItemFactory.cpp" compile="1" resource="0"
-            file="Source/ListItemFactory.cpp"/>
-      <FILE id="bxXVBw" name="ListItemFactory.h" compile="0" resource="0"
-            file="Source/ListItemFactory.h"/>
-      <GROUP id="{6C23D08A-661B-E33C-0F1F-7C97288BBB2E}" name="UI">
-        <FILE id="L0dFsv" name="HistorySource.cpp" compile="1" resource="0"
-              file="Source/HistorySource.cpp"/>
-        <FILE id="sL6ZAv" name="HistorySource.h" compile="0" resource="0" file="Source/HistorySource.h"/>
-        <FILE id="h4TaO7" name="OwnedListGUI.cpp" compile="1" resource="0"
-              file="Source/OwnedListGUI.cpp"/>
-        <FILE id="E4fvNx" name="OwnedListGUI.h" compile="0" resource="0" file="Source/OwnedListGUI.h"/>
+      <GROUP id="{6AEF205A-9C89-8A7E-AB2F-DFD7F2D2C71A}" name="Tools">
+        <GROUP id="{CAE6D14E-DCB1-A4A7-44A1-4ED9536C7F6D}" name="UI">
+          <FILE id="Uj2i3Z" name="BoundDrivenComponent.cpp" compile="1" resource="0"
+                file="Source/BoundDrivenComponent.cpp"/>
+          <FILE id="UbLeXd" name="BoundDrivenComponent.h" compile="0" resource="0"
+                file="Source/BoundDrivenComponent.h"/>
+          <FILE id="AG21Hz" name="NamableObjectLabel.cpp" compile="1" resource="0"
+                file="Source/NamableObjectLabel.cpp"/>
+          <FILE id="IY12hO" name="NamableObjectLabel.h" compile="0" resource="0"
+                file="Source/NamableObjectLabel.h"/>
+        </GROUP>
+        <FILE id="Bh308I" name="NamableObject.cpp" compile="1" resource="0"
+              file="Source/NamableObject.cpp"/>
+        <FILE id="h7i6pJ" name="NamableObject.h" compile="0" resource="0" file="Source/NamableObject.h"/>
       </GROUP>
-      <FILE id="gTdvvO" name="OwnedList.cpp" compile="1" resource="0" file="Source/OwnedList.cpp"/>
-      <FILE id="VDRMl3" name="OwnedList.h" compile="0" resource="0" file="Source/OwnedList.h"/>
-      <FILE id="XtBFLV" name="D3CKHistory.cpp" compile="1" resource="0" file="Source/D3CKHistory.cpp"/>
-      <FILE id="r5iv2P" name="List.h" compile="0" resource="0" file="Source/List.h"/>
-      <FILE id="WfQ6U9" name="List.cpp" compile="1" resource="0" file="Source/List.cpp"/>
-      <FILE id="JDhdy5" name="D3CKHistory.h" compile="0" resource="0" file="Source/D3CKHistory.h"/>
+      <FILE id="LyfyDg" name="BoundsDriver.cpp" compile="1" resource="0"
+            file="Source/BoundsDriver.cpp"/>
+      <FILE id="WeHWI5" name="BoundsDriver.h" compile="0" resource="0" file="Source/BoundsDriver.h"/>
+      <GROUP id="{9F27C078-4F0D-9EF9-C25C-7874E4B25F15}" name="UI">
+        <FILE id="JZoTvE" name="PlacementRect.cpp" compile="1" resource="0"
+              file="Source/PlacementRect.cpp"/>
+        <FILE id="CCAGT6" name="PlacementRect.h" compile="0" resource="0" file="Source/PlacementRect.h"/>
+      </GROUP>
+      <GROUP id="{12DA125D-C98F-D1EF-BEB7-D732A05B1E16}" name="List">
+        <FILE id="ux9u7r" name="MoveListItem.cpp" compile="1" resource="0"
+              file="Source/MoveListItem.cpp"/>
+        <FILE id="pfViKr" name="MoveListItem.h" compile="0" resource="0" file="Source/MoveListItem.h"/>
+        <FILE id="zMVvkI" name="ListItem.cpp" compile="1" resource="0" file="Source/ListItem.cpp"/>
+        <FILE id="rALHKi" name="ListItem.h" compile="0" resource="0" file="Source/ListItem.h"/>
+        <FILE id="y7ejvi" name="ListItemFactory.cpp" compile="1" resource="0"
+              file="Source/ListItemFactory.cpp"/>
+        <FILE id="bxXVBw" name="ListItemFactory.h" compile="0" resource="0"
+              file="Source/ListItemFactory.h"/>
+        <GROUP id="{6C23D08A-661B-E33C-0F1F-7C97288BBB2E}" name="UI">
+          <FILE id="L0dFsv" name="HistorySource.cpp" compile="1" resource="0"
+                file="Source/HistorySource.cpp"/>
+          <FILE id="sL6ZAv" name="HistorySource.h" compile="0" resource="0" file="Source/HistorySource.h"/>
+          <FILE id="h4TaO7" name="OwnedListGUI.cpp" compile="1" resource="0"
+                file="Source/OwnedListGUI.cpp"/>
+          <FILE id="E4fvNx" name="OwnedListGUI.h" compile="0" resource="0" file="Source/OwnedListGUI.h"/>
+        </GROUP>
+        <FILE id="gTdvvO" name="OwnedList.cpp" compile="1" resource="0" file="Source/OwnedList.cpp"/>
+        <FILE id="VDRMl3" name="OwnedList.h" compile="0" resource="0" file="Source/OwnedList.h"/>
+        <FILE id="XtBFLV" name="D3CKHistory.cpp" compile="1" resource="0" file="Source/D3CKHistory.cpp"/>
+        <FILE id="r5iv2P" name="List.h" compile="0" resource="0" file="Source/List.h"/>
+        <FILE id="WfQ6U9" name="List.cpp" compile="1" resource="0" file="Source/List.cpp"/>
+        <FILE id="JDhdy5" name="D3CKHistory.h" compile="0" resource="0" file="Source/D3CKHistory.h"/>
+      </GROUP>
     </GROUP>
+    <GROUP name="deps" id="ho3F9R"/>
   </MAINGROUP>
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX" vstFolder="/Users/jms/Development/audioD3CK/lib/vstsdk2.4"
-               postbuildCommand="# This script takes the build product and copies it to the AU, VST, and RTAS folders, depending on &#10;# which plugin types you've built&#10;&#10;original=$CONFIGURATION_BUILD_DIR/$FULL_PRODUCT_NAME&#10;setfileicon $original/Contents/Resources/Icon.icns $original&#10; &#10;# this looks inside the binary to detect which platforms are needed.. &#10;copyAU=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'AudioUnit' | wc -l&#96;&#10;copyVST=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'VSTPlugin' | wc -l&#96;&#10;copyRTAS=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'CProcess' | wc -l&#96;&#10;copyAAX=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'ACFStartup' | wc -l&#96;&#10;&#10;if [ $copyAU -gt 0 ]; then&#10;  echo &quot;Copying to AudioUnit folder...&quot;&#10;  AU=~/Library/Audio/Plug-Ins/Components/D3CKCore.component&#10;  if [ -d &quot;$AU&quot; ]; then &#10;    rm -r &quot;$AU&quot;&#10;  fi&#10;&#10;  cp -r &quot;$original&quot; &quot;$AU&quot;&#10;  sed -i &quot;&quot; -e 's/TDMwPTul/BNDLPTul/g' &quot;$AU/Contents/PkgInfo&quot;&#10;  sed -i &quot;&quot; -e 's/TDMw/BNDL/g' &quot;$AU/Contents/$INFOPLIST_FILE&quot;&#10;&#10;  # Fix info.plist for AUs built with Xcode 3&#10;  if [ -f &quot;$DEVELOPER_DIR/Library/Developer/CoreAudio/AudioUnits/AUPublic/AUBase/AUPlugInDispatch.cpp&quot; ]; then&#10;    echo&#10;  else&#10;    echo &quot;Removing AudioComponents entry from Info.plist because this is not a new-format AU&quot;&#10;    /usr/libexec/PlistBuddy -c &quot;Delete AudioComponents&quot; &quot;$AU/Contents/Info.plist&quot;&#10;  fi&#10;fi&#10;&#10;if [ $copyVST -gt 0 ]; then&#10;  echo &quot;Copying to VST folder...&quot;&#10;  VST=~/Library/Audio/Plug-Ins/VST/D3CKCore.vst&#10;  if [ -d &quot;$VST&quot; ]; then &#10;    rm -r &quot;$VST&quot;&#10;  fi&#10;&#10;  cp -r &quot;$original&quot; &quot;$VST&quot;&#10;  sed -i &quot;&quot; -e 's/TDMwPTul/BNDLPTul/g' &quot;$VST/Contents/PkgInfo&quot;&#10;  sed -i &quot;&quot; -e 's/TDMw/BNDL/g' &quot;$VST/Contents/$INFOPLIST_FILE&quot;&#10;fi&#10;&#10;if [ $copyRTAS -gt 0 ]; then&#10;  echo &quot;Copying to RTAS folder...&quot;&#10;  RTAS=/Library/Application\ Support/Digidesign/Plug-Ins/D3CKCore.dpm&#10;  if [ -d &quot;$RTAS&quot; ]; then&#10;    rm -r &quot;$RTAS&quot;&#10;  fi&#10;&#10;  cp -r &quot;$original&quot; &quot;$RTAS&quot;&#10;fi&#10;&#10;if [ $copyAAX -gt 0 ]; then&#10;  echo &quot;Copying to AAX folder...&quot;&#10;&#10;  if [ -d &quot;/Applications/ProTools_3PDev/Plug-Ins&quot; ]; then&#10;    AAX1=&quot;/Applications/ProTools_3PDev/Plug-Ins/D3CKCore.aaxplugin&quot;&#10;&#10;    if [ -d &quot;$AAX1&quot; ]; then&#10;      rm -r &quot;$AAX1&quot;&#10;    fi&#10;&#10;    cp -r &quot;$original&quot; &quot;$AAX1&quot;&#10;  fi&#10;&#10;  if [ -d &quot;/Library/Application Support/Avid/Audio/Plug-Ins&quot; ]; then&#10;    AAX2=&quot;/Library/Application Support/Avid/Audio/Plug-Ins/D3CKCore.aaxplugin&quot;&#10;&#10;    if [ -d &quot;$AAX2&quot; ]; then&#10;      rm -r &quot;$AAX2&quot;&#10;    fi&#10;&#10;    cp -r &quot;$original&quot; &quot;$AAX2&quot;&#10;  fi&#10;fi&#10;"
+               postbuildCommand="# This script takes the build product and copies it to the AU, VST, and RTAS folders, depending on &#10;# which plugin types you've built&#10;&#10;original=$CONFIGURATION_BUILD_DIR/$FULL_PRODUCT_NAME&#10;setfileicon $original/Contents/Resources/Icon.icns $original&#10; &#10;# this looks inside the binary to detect which platforms are needed.. &#10;copyAU=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'AudioUnit' | wc -l&#96;&#10;copyVST=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'VSTPlugin' | wc -l&#96;&#10;copyRTAS=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'CProcess' | wc -l&#96;&#10;copyAAX=&#96;nm -g &quot;$CONFIGURATION_BUILD_DIR/$EXECUTABLE_PATH&quot; | grep -i 'ACFStartup' | wc -l&#96;&#10;&#10;if [ $copyAU -gt 0 ]; then&#10;  echo &quot;Copying to AudioUnit folder...&quot;&#10;  AU=~/Library/Audio/Plug-Ins/Components/template.component&#10;  if [ -d &quot;$AU&quot; ]; then &#10;    rm -r &quot;$AU&quot;&#10;  fi&#10;&#10;  cp -r &quot;$original&quot; &quot;$AU&quot;&#10;  sed -i &quot;&quot; -e 's/TDMwPTul/BNDLPTul/g' &quot;$AU/Contents/PkgInfo&quot;&#10;  sed -i &quot;&quot; -e 's/TDMw/BNDL/g' &quot;$AU/Contents/$INFOPLIST_FILE&quot;&#10;&#10;  # Fix info.plist for AUs built with Xcode 3&#10;  if [ -f &quot;$DEVELOPER_DIR/Library/Developer/CoreAudio/AudioUnits/AUPublic/AUBase/AUPlugInDispatch.cpp&quot; ]; then&#10;    echo&#10;  else&#10;    echo &quot;Removing AudioComponents entry from Info.plist because this is not a new-format AU&quot;&#10;    /usr/libexec/PlistBuddy -c &quot;Delete AudioComponents&quot; &quot;$AU/Contents/Info.plist&quot;&#10;  fi&#10;fi&#10;&#10;if [ $copyVST -gt 0 ]; then&#10;  echo &quot;Copying to VST folder...&quot;&#10;  VST=~/Library/Audio/Plug-Ins/VST/template.vst&#10;  if [ -d &quot;$VST&quot; ]; then &#10;    rm -r &quot;$VST&quot;&#10;  fi&#10;&#10;  cp -r &quot;$original&quot; &quot;$VST&quot;&#10;  sed -i &quot;&quot; -e 's/TDMwPTul/BNDLPTul/g' &quot;$VST/Contents/PkgInfo&quot;&#10;  sed -i &quot;&quot; -e 's/TDMw/BNDL/g' &quot;$VST/Contents/$INFOPLIST_FILE&quot;&#10;fi&#10;&#10;if [ $copyRTAS -gt 0 ]; then&#10;  echo &quot;Copying to RTAS folder...&quot;&#10;  RTAS=/Library/Application\ Support/Digidesign/Plug-Ins/template.dpm&#10;  if [ -d &quot;$RTAS&quot; ]; then&#10;    rm -r &quot;$RTAS&quot;&#10;  fi&#10;&#10;  cp -r &quot;$original&quot; &quot;$RTAS&quot;&#10;fi&#10;&#10;if [ $copyAAX -gt 0 ]; then&#10;  echo &quot;Copying to AAX folder...&quot;&#10;&#10;  if [ -d &quot;/Applications/ProTools_3PDev/Plug-Ins&quot; ]; then&#10;    AAX1=&quot;/Applications/ProTools_3PDev/Plug-Ins/template.aaxplugin&quot;&#10;&#10;    if [ -d &quot;$AAX1&quot; ]; then&#10;      rm -r &quot;$AAX1&quot;&#10;    fi&#10;&#10;    cp -r &quot;$original&quot; &quot;$AAX1&quot;&#10;  fi&#10;&#10;  if [ -d &quot;/Library/Application Support/Avid/Audio/Plug-Ins&quot; ]; then&#10;    AAX2=&quot;/Library/Application Support/Avid/Audio/Plug-Ins/template.aaxplugin&quot;&#10;&#10;    if [ -d &quot;$AAX2&quot; ]; then&#10;      rm -r &quot;$AAX2&quot;&#10;    fi&#10;&#10;    cp -r &quot;$original&quot; &quot;$AAX2&quot;&#10;  fi&#10;fi&#10;"
                externalLibraries="" smallIcon="" bigIcon="" prebuildCommand=""
                aaxFolder="/Users/jms/Development/audioD3CK/lib/AAX_SDK_2p1p1"
                rtasFolder="../PT_80_SDK" vst3Folder="/Users/jms/Development/audioD3CK/lib/VST3 SDK">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
-                       isDebug="1" optimisation="1" targetName="D3CKCore" headerPath="&#10;/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500"
+                       isDebug="1" optimisation="1" targetName="D3CKCore" headerPath="&#10;/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;/Users/jms/Development/audioD3CK/source/D3CKInterface/Source"
                        libraryPath=""/>
         <CONFIGURATION name="Test" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
-                       isDebug="1" optimisation="3" targetName="D3CKCore" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500"
+                       isDebug="1" optimisation="3" targetName="D3CKCore" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;/Users/jms/Development/audioD3CK/source/D3CKInterface/Source"
                        libraryPath=""/>
         <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="10.4 SDK" osxArchitecture="64BitUniversal"
-                       isDebug="0" optimisation="3" targetName="D3CKCore" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500"
+                       isDebug="0" optimisation="3" targetName="D3CKCore" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;/Users/jms/Development/audioD3CK/source/D3CKInterface/Source"
                        libraryPath=""/>
       </CONFIGURATIONS>
       <MODULEPATHS>
@@ -110,15 +111,15 @@
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
                        isDebug="1" optimisation="1" targetName="D3CKCore" libraryPath=""
-                       headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500"
+                       headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;g://Development/audioD3CK/source/D3CKInterface/Source"
                        useRuntimeLibDLL="0"/>
         <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
                        isDebug="0" optimisation="3" targetName="D3CKCore" libraryPath=""
-                       headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;"
+                       headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;&#10;g://Development/audioD3CK/source/D3CKInterface/Source"
                        useRuntimeLibDLL="0" postbuildCommand=""/>
         <CONFIGURATION name="Release64" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
                        isDebug="0" optimisation="3" targetName="D3CKCore" libraryPath=""
-                       headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;"
+                       headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;&#10;g://Development/audioD3CK/source/D3CKInterface/Source"
                        useRuntimeLibDLL="0" postbuildCommand=""/>
       </CONFIGURATIONS>
       <MODULEPATHS>

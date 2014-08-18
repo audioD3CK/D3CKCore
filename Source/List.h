@@ -33,8 +33,9 @@ public:
     ListItemFactory* factory;
     SelectedItemSet<ListItem*> selectedItems;
 
+    virtual int indexOf(ListItem* item);
+
 protected:
-	virtual int indexOf(ListItem* item);
 	virtual void remove(ListItem* item) = 0;
 	virtual void add(ListItem* item,int index = -1) = 0;
 

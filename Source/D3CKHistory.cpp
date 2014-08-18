@@ -21,6 +21,22 @@ D3CKHistory* D3CKHistory::find(Component *comp)
     return g ? g->getHistory() : nullptr;
 }
 
+bool D3CKHistory::tryPerform(UndoableAction* action,Component* comp)
+{
+    D3CKHistory* h = find(comp);
+    if(h)
+    {
+        return h->perform(action);
+    }
+    else
+    {
+        action->perform();
+        deleteAndZero(action);
+        return false;
+    }
+}
+
+
 void D3CKHistory::beginNewTransaction(const String& name, Component* comp)
 {
     D3CKHistory::find(comp)->beginNewTransaction(name);
