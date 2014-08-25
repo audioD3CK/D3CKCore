@@ -5,8 +5,10 @@ class PropertySource
 {
 public:
     virtual ~PropertySource();
- 
-    virtual Array<PropertyComponent*> getPropertyComponents() const;
-    virtual void fillPropertyPanel(PropertyPanel& panelToFill) const;
     virtual String getPropertySectionName()const;
+    virtual Array<PropertyComponent*> getPropertyComponents();
+    
+    virtual void fillPropertyPanel(PropertyPanel& panelToFill) const;
+    
+    static void putPropertysToPanel(PropertyPanel& panelToFill,const Array<PropertyComponent*>&,const String &name);
 };

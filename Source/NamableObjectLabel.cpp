@@ -4,11 +4,15 @@
 NamableObjectLabel::NamableObjectLabel(NamableObject* obj,ChangeBroadcaster* changeBroadcaster):
 Label("name",obj->getName())
 {
-	this->changeBroadcaster = changeBroadcaster ? changeBroadcaster : obj;
+	this->changeBroadcaster = changeBroadcaster;
 	this->obj = obj;
 	if(this->changeBroadcaster)
     {
 		this->changeBroadcaster->addChangeListener(this);
+    }
+    else
+    {
+        this->obj->addChangeListener(this);
     }
 	addListener(obj);
 	setEditable(false,true);
@@ -25,6 +29,10 @@ NamableObjectLabel::~NamableObjectLabel()
 	if(changeBroadcaster)
     {
 		changeBroadcaster->removeChangeListener(this);
+    }
+    else if(obj)
+    {
+        obj->removeChangeListener(this);
     }
 }
 void NamableObjectLabel::changeListenerCallback(ChangeBroadcaster* obj)
