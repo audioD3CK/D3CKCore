@@ -12,7 +12,7 @@ public:
     virtual ~NamableObject();
 
 	void labelTextChanged(Label* label);
-	virtual void setName(const String& newName,bool sendChange = true) = 0;
+	virtual void setName(const String& newName) = 0;
 	void focusEditor();
     bool isEditorArmed()const;
     void editorUsed();
@@ -29,9 +29,11 @@ virtual public NamableObject
 {
 public:
 	SimpleNamableObject(ChangeBroadcaster* nameChangeBroadcaster = 0);
-	virtual void setName(const String& newName,bool sendChange = true)override;
+	virtual void setName(const String& newName, bool sendChange);
+    virtual void setName(const String& name)override;
 	virtual const String getName() const;
 protected:
+    
     virtual void nameChanged(const String& newName);
 private:
 	String name;

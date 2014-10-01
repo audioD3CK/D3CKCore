@@ -2,6 +2,7 @@
 #include "JuceHeader.h"
 
 class BigShotTreeItemDragAndDropComponent;
+
 class VirtualDragAndDropTarget
 {
 public:

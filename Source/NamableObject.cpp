@@ -26,6 +26,8 @@ NamableObject(nameChangeBroadcaster)
 {
     
 }
+
+
 bool NamableObject::isEditorArmed()const
 {
     return this->editorArmed;
@@ -53,3 +55,7 @@ void SimpleNamableObject::nameChanged(const String& newName)
     sendChangeMessage();
 }
 
+void SimpleNamableObject::setName(const String& name)
+{
+    this->setName(name,true);
+}

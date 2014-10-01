@@ -26,7 +26,10 @@ void ListItem::moveToTrash(bool useHistory, D3CKHistory* historyp)
 	if(history )
     {
         setList(&history->getTrash(),-1,useHistory,history);
-
+    }
+    else
+    {
+        jassertfalse;
     }
     
     //jassert(useHistory && history)
@@ -108,6 +111,27 @@ void ListItem::setList(List* list,int index, bool useHistory, D3CKHistory* histo
 		}
 	}
 }
+
+ListItem* ListItem::getPreviousListItem()const
+{
+    if(this->list)
+    {
+        int index = this->list->indexOf(this);
+        return this->list->getItem((index+this->list->getNumRows()-1) % this->list->getNumRows());
+    }
+    return nullptr;
+}
+
+ListItem* ListItem::getNextListItem()const
+{
+    if(this->list)
+    {
+        int index = this->list->indexOf(this);
+        return this->list->getItem((index+1) % this->list->getNumRows());
+    }
+    return nullptr;
+}
+
 List* ListItem::getList()
 {
 	return list;

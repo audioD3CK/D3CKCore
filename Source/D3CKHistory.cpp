@@ -37,14 +37,19 @@ bool D3CKHistory::tryPerform(UndoableAction* action,Component* comp)
 }
 
 
-void D3CKHistory::beginNewTransaction(const String& name, Component* comp)
+D3CKHistory* D3CKHistory::beginNewTransaction(const String& name, Component* comp)
 {
-    D3CKHistory::find(comp)->beginNewTransaction(name);
+    D3CKHistory* h = D3CKHistory::find(comp);
+    if(h)
+    {
+        h->beginNewTransaction(name);
+    }
+    return h;
 }
 
 void D3CKHistory::beginNewTransaction (const String& actionName)
 {
-
+    
     UndoManager::beginNewTransaction(actionName);
 }
 void D3CKHistory::clearUndoHistory()

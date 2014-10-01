@@ -55,7 +55,7 @@ const Array<ListItem*> List::toArray()
     }
     return items;
 }
-int List::indexOf(ListItem* item)
+int List::indexOf(const ListItem* item) const
 {
     for(int i = getNumRows() ; --i >= 0 ; )
     {

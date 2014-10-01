@@ -12,18 +12,22 @@ public:
 	{
 		setListHistory( history);
 	}
-	virtual void remove(ListItem* item)
+    ~OwnedList()
+    {
+        this->items.clear();
+    }
+	virtual void remove(ListItem* item) override
 	{
 		T* t = dynamic_cast<T*>(item);
 		if(t)
 			items.removeObject(t,false);
 		sendChangeMessage();
 	}
-    virtual ListItem* getItem(int i)
+    virtual ListItem* getItem(int i) const override
     {
         return items.getUnchecked(i);
     }
-	virtual void add(ListItem* item,int index)
+	virtual void add(ListItem* item,int index) override
 	{
 		T* t = dynamic_cast<T*>(item);
 		if(t)
@@ -37,22 +41,22 @@ public:
 		}
 		sendChangeMessage();
 	}
-	virtual int indexOf(ListItem* item)
+	virtual int indexOf(const ListItem* item)const override
 	{
-		T* t = dynamic_cast<T*>(item);
+		const T* t = dynamic_cast<const T*>(item);
 		return items.indexOf(t);
 	}
-	int getNumRows()
+	int getNumRows() override
 	{
 		const OwnedList<T>* l = this;
 		return l->getNumRows();
 	}
-	virtual int getNumRows() const
+	virtual int getNumRows() const override
 	{
 		return items.size();
 	}
     
-	virtual void paintListBoxItem(int rowNumber, Graphics& g, int width, int height, bool rowIsSelected)
+	virtual void paintListBoxItem(int rowNumber, Graphics& g, int width, int height, bool rowIsSelected) override
 	{
 		if(rowIsSelected)
 		{

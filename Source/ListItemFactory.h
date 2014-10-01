@@ -6,5 +6,5 @@ class ListItemFactory
 {
 public:
     virtual ListItem* createListItem(int flags) = 0;
-    virtual ~ListItemFactory();
+    virtual ~ListItemFactory(){};
 };

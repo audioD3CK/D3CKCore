@@ -23,7 +23,7 @@ public:
 	virtual D3CKHistory* getListHistory();
 	virtual void setListHistory(D3CKHistory* history);
 	virtual int getNumRows() const = 0;
-    virtual ListItem* getItem(int i) = 0;
+    virtual ListItem* getItem(int i) const = 0;
     virtual int getMinNumItems();
     virtual ListItem* getLast();
     virtual ListItem* genericAdd();
@@ -33,7 +33,7 @@ public:
     ListItemFactory* factory;
     SelectedItemSet<ListItem*> selectedItems;
 
-    virtual int indexOf(ListItem* item);
+    virtual int indexOf(const ListItem* item) const;
 
 protected:
 	virtual void remove(ListItem* item) = 0;

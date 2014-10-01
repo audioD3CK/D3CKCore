@@ -1,6 +1,7 @@
 #pragma once
 #include "VirtualDragAndDropTarget.h"
 #include "NamableObject.h"
+#include "Object.h"
 
 class D3CKHistory;
 class List;
@@ -8,7 +9,8 @@ class List;
 class ListItem :
 virtual public VirtualDragAndDropTarget,
 virtual public ChangeBroadcaster,
-virtual public NamableObject
+virtual public NamableObject,
+virtual public Object
 {
 	friend class MoveListItem;
 public:
@@ -20,6 +22,9 @@ public:
 	virtual void movedToTrash(bool wasUnodable);
     virtual void movingToTrash(D3CKHistory* history);
     
+    ListItem* getPreviousListItem()const;
+    ListItem* getNextListItem()const;
+
     virtual bool canDelete()const;
     void setHover(bool hover);
     bool hovers();

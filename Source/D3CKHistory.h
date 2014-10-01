@@ -18,7 +18,7 @@ public:
     OwnedList<ListItem>& getTrash();
     CriticalSection* getLock()const;
     static D3CKHistory* find( Component* comp);
-    static void beginNewTransaction(const String& name, Component* comp);
+    static D3CKHistory* beginNewTransaction(const String& name, Component* comp);
     static bool tryPerform(UndoableAction* action,Component* comp);
 
 private:

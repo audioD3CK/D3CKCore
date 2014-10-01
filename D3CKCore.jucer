@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="eps2jq" name="D3CKCore" projectType="library" version="1.2"
+<JUCERPROJECT id="eps2jq" name="D3CKCore" projectType="library" version="1.5"
               bundleIdentifier="com.audioD3CK.D3CKCore" includeBinaryInAppConfig="1"
               jucerVersion="3.1.0" companyEmail="support@audio.d3ck.net" companyWebsite="http://audio.d3ck.net"
               companyName="audioD3CK" pluginManufacturerEmail="support@audio.d3ck.net"
@@ -8,67 +8,109 @@
               pluginManufacturer="audioD3CK" pluginDesc="D3CKCore" pluginName="D3CKCore"
               buildAAX="1" buildRTAS="0" buildVST3="1" buildAU="1" buildVST="1">
   <MAINGROUP id="nNYpbv" name="D3CKCore">
-    <GROUP id="{6DFB2C4F-083C-0808-40BB-32C2A74D3C18}" name="Source">
-      <GROUP id="{F80DFB2C-4C47-EB6E-818C-2F19D143F3E0}" name="Interface">
-        <FILE id="tJOYy1" name="VirtualDragAndDropTarget.cpp" compile="1" resource="0"
-              file="Source/VirtualDragAndDropTarget.cpp"/>
-        <FILE id="e213pV" name="VirtualDragAndDropTarget.h" compile="0" resource="0"
-              file="Source/VirtualDragAndDropTarget.h"/>
-        <FILE id="QeKlbo" name="PropertySource.cpp" compile="1" resource="0"
-              file="Source/PropertySource.cpp"/>
-        <FILE id="ZAlMNd" name="PropertySource.h" compile="0" resource="0"
-              file="Source/PropertySource.h"/>
-      </GROUP>
-      <GROUP id="{6AEF205A-9C89-8A7E-AB2F-DFD7F2D2C71A}" name="Tools">
-        <GROUP id="{CAE6D14E-DCB1-A4A7-44A1-4ED9536C7F6D}" name="UI">
-          <FILE id="Uj2i3Z" name="BoundDrivenComponent.cpp" compile="1" resource="0"
-                file="Source/BoundDrivenComponent.cpp"/>
-          <FILE id="UbLeXd" name="BoundDrivenComponent.h" compile="0" resource="0"
-                file="Source/BoundDrivenComponent.h"/>
-          <FILE id="AG21Hz" name="NamableObjectLabel.cpp" compile="1" resource="0"
-                file="Source/NamableObjectLabel.cpp"/>
-          <FILE id="IY12hO" name="NamableObjectLabel.h" compile="0" resource="0"
-                file="Source/NamableObjectLabel.h"/>
-        </GROUP>
-        <FILE id="Bh308I" name="NamableObject.cpp" compile="1" resource="0"
-              file="Source/NamableObject.cpp"/>
-        <FILE id="h7i6pJ" name="NamableObject.h" compile="0" resource="0" file="Source/NamableObject.h"/>
-      </GROUP>
-      <FILE id="LyfyDg" name="BoundsDriver.cpp" compile="1" resource="0"
-            file="Source/BoundsDriver.cpp"/>
-      <FILE id="WeHWI5" name="BoundsDriver.h" compile="0" resource="0" file="Source/BoundsDriver.h"/>
-      <GROUP id="{9F27C078-4F0D-9EF9-C25C-7874E4B25F15}" name="UI">
-        <FILE id="JZoTvE" name="PlacementRect.cpp" compile="1" resource="0"
-              file="Source/PlacementRect.cpp"/>
-        <FILE id="CCAGT6" name="PlacementRect.h" compile="0" resource="0" file="Source/PlacementRect.h"/>
-      </GROUP>
-      <GROUP id="{12DA125D-C98F-D1EF-BEB7-D732A05B1E16}" name="List">
-        <FILE id="ux9u7r" name="MoveListItem.cpp" compile="1" resource="0"
-              file="Source/MoveListItem.cpp"/>
-        <FILE id="pfViKr" name="MoveListItem.h" compile="0" resource="0" file="Source/MoveListItem.h"/>
-        <FILE id="zMVvkI" name="ListItem.cpp" compile="1" resource="0" file="Source/ListItem.cpp"/>
-        <FILE id="rALHKi" name="ListItem.h" compile="0" resource="0" file="Source/ListItem.h"/>
-        <FILE id="y7ejvi" name="ListItemFactory.cpp" compile="1" resource="0"
-              file="Source/ListItemFactory.cpp"/>
-        <FILE id="bxXVBw" name="ListItemFactory.h" compile="0" resource="0"
-              file="Source/ListItemFactory.h"/>
-        <GROUP id="{6C23D08A-661B-E33C-0F1F-7C97288BBB2E}" name="UI">
-          <FILE id="L0dFsv" name="HistorySource.cpp" compile="1" resource="0"
-                file="Source/HistorySource.cpp"/>
-          <FILE id="sL6ZAv" name="HistorySource.h" compile="0" resource="0" file="Source/HistorySource.h"/>
-          <FILE id="h4TaO7" name="OwnedListGUI.cpp" compile="1" resource="0"
-                file="Source/OwnedListGUI.cpp"/>
-          <FILE id="E4fvNx" name="OwnedListGUI.h" compile="0" resource="0" file="Source/OwnedListGUI.h"/>
-        </GROUP>
-        <FILE id="gTdvvO" name="OwnedList.cpp" compile="1" resource="0" file="Source/OwnedList.cpp"/>
-        <FILE id="VDRMl3" name="OwnedList.h" compile="0" resource="0" file="Source/OwnedList.h"/>
-        <FILE id="XtBFLV" name="D3CKHistory.cpp" compile="1" resource="0" file="Source/D3CKHistory.cpp"/>
-        <FILE id="r5iv2P" name="List.h" compile="0" resource="0" file="Source/List.h"/>
-        <FILE id="WfQ6U9" name="List.cpp" compile="1" resource="0" file="Source/List.cpp"/>
-        <FILE id="JDhdy5" name="D3CKHistory.h" compile="0" resource="0" file="Source/D3CKHistory.h"/>
+    <GROUP name="Source">
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/VirtualDragAndDropTarget.h"
+            name="VirtualDragAndDropTarget.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/VirtualDragAndDropTarget.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/VirtualDragAndDropTarget.cpp"
+            name="VirtualDragAndDropTarget.cpp" compile="1" resource="0"
+            file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/VirtualDragAndDropTarget.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/SimpleTaggedItem.h"
+            name="SimpleTaggedItem.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/SimpleTaggedItem.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/SimpleTaggedItem.cpp"
+            name="SimpleTaggedItem.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/SimpleTaggedItem.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/PropertySource.h"
+            name="PropertySource.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/PropertySource.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/PropertySource.cpp"
+            name="PropertySource.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/PropertySource.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/PlacementRect.h"
+            name="PlacementRect.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/PlacementRect.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/PlacementRect.cpp"
+            name="PlacementRect.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/PlacementRect.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/OwnedListGUI.h"
+            name="OwnedListGUI.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/OwnedListGUI.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/OwnedList.h"
+            name="OwnedList.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/OwnedList.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/NamableObjectLabel.h"
+            name="NamableObjectLabel.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/NamableObjectLabel.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/NamableObjectLabel.cpp"
+            name="NamableObjectLabel.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/NamableObjectLabel.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/NamableObject.h"
+            name="NamableObject.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/NamableObject.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/NamableObject.cpp"
+            name="NamableObject.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/NamableObject.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/MoveListItem.h"
+            name="MoveListItem.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/MoveListItem.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/MoveListItem.cpp"
+            name="MoveListItem.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/MoveListItem.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/ListItemFactory.h"
+            name="ListItemFactory.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/ListItemFactory.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/ListItem.h"
+            name="ListItem.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/ListItem.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/ListItem.cpp"
+            name="ListItem.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/ListItem.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/List.h"
+            name="List.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/List.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/List.cpp"
+            name="List.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/List.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/IdObject.h"
+            name="IdObject.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/IdObject.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/HistorySource.h"
+            name="HistorySource.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/HistorySource.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/D3CKHistory.h"
+            name="D3CKHistory.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/D3CKHistory.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/D3CKHistory.cpp"
+            name="D3CKHistory.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/D3CKHistory.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/CrossSSE.h"
+            name="CrossSSE.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/CrossSSE.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/Copyable.h"
+            name="Copyable.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/Copyable.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/BoundsDriver.h"
+            name="BoundsDriver.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/BoundsDriver.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/BoundsDriver.cpp"
+            name="BoundsDriver.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/BoundsDriver.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/BoundDrivenComponent.h"
+            name="BoundDrivenComponent.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/BoundDrivenComponent.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/BoundDrivenComponent.cpp"
+            name="BoundDrivenComponent.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/BoundDrivenComponent.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/AlignedClass.h"
+            name="AlignedClass.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKCore/Source/AlignedClass.h"/>
+    </GROUP>
+    <GROUP name="deps" id="ho3F9R">
+      <GROUP name="D3CKInterface">
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemSource.h"
+              name="TaggedItemSource.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemSource.h"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemSource.cpp"
+              name="TaggedItemSource.cpp" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemSource.cpp"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemHandler.h"
+              name="TaggedItemHandler.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemHandler.h"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemHandler.cpp"
+              name="TaggedItemHandler.cpp" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemHandler.cpp"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemBase.h"
+              name="TaggedItemBase.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemBase.h"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemBase.cpp"
+              name="TaggedItemBase.cpp" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemBase.cpp"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Object.h"
+              name="Object.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Object.h"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Object.cpp"
+              name="Object.cpp" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Object.cpp"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/NamedObject.h"
+              name="NamedObject.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/NamedObject.h"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/NamedObject.cpp"
+              name="NamedObject.cpp" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/NamedObject.cpp"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Length.h"
+              name="Length.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Length.h"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Length.cpp"
+              name="Length.cpp" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Length.cpp"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/IconSource.h"
+              name="IconSource.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/IconSource.h"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/IconSource.cpp"
+              name="IconSource.cpp" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/IconSource.cpp"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/DraggableObject.h"
+              name="DraggableObject.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/DraggableObject.h"/>
+        <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/DraggableObject.cpp"
+              name="DraggableObject.cpp" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/DraggableObject.cpp"/>
       </GROUP>
     </GROUP>
-    <GROUP name="deps" id="ho3F9R"/>
   </MAINGROUP>
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX" vstFolder="/Users/jms/Development/audioD3CK/lib/vstsdk2.4"
@@ -81,8 +123,8 @@
                        isDebug="1" optimisation="1" targetName="D3CKCore" headerPath="&#10;/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;/Users/jms/Development/audioD3CK/source/D3CKInterface/Source"
                        libraryPath=""/>
         <CONFIGURATION name="Test" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
-                       isDebug="1" optimisation="3" targetName="D3CKCore" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;/Users/jms/Development/audioD3CK/source/D3CKInterface/Source"
-                       libraryPath=""/>
+                       isDebug="0" optimisation="3" targetName="D3CKCore" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;/Users/jms/Development/audioD3CK/source/D3CKInterface/Source"
+                       libraryPath="" customXcodeFlags="GCC_GENERATE_DEBUGGING_SYMBOLS=YES,COPY_PHASE_STRIP=NO"/>
         <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="10.4 SDK" osxArchitecture="64BitUniversal"
                        isDebug="0" optimisation="3" targetName="D3CKCore" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;/Users/jms/Development/audioD3CK/source/D3CKInterface/Source"
                        libraryPath=""/>
@@ -113,14 +155,18 @@
                        isDebug="1" optimisation="1" targetName="D3CKCore" libraryPath=""
                        headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;g://Development/audioD3CK/source/D3CKInterface/Source"
                        useRuntimeLibDLL="0"/>
-        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+        <CONFIGURATION name="Release32" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
                        isDebug="0" optimisation="3" targetName="D3CKCore" libraryPath=""
                        headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;&#10;g://Development/audioD3CK/source/D3CKInterface/Source"
                        useRuntimeLibDLL="0" postbuildCommand=""/>
-        <CONFIGURATION name="Release64" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
                        isDebug="0" optimisation="3" targetName="D3CKCore" libraryPath=""
                        headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;&#10;g://Development/audioD3CK/source/D3CKInterface/Source"
                        useRuntimeLibDLL="0" postbuildCommand=""/>
+        <CONFIGURATION name="Test" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="D3CKCore" libraryPath=""
+                       headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;&#10;g://Development/audioD3CK/source/D3CKInterface/Source"
+                       useRuntimeLibDLL="0" postbuildCommand="" alwaysGenerateDebugSymbols="1"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_video" path="g://GIT/JUCE/modules"/>
