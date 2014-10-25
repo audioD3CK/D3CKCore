@@ -1,0 +1,7 @@
+Builds
+JuceLibraryCode
+.DS_Store
+built.mac.Debug.md5
+built.win.Debug.md5
+D3CKCore.jucer.md5
+D3CKCore.pkgproj
